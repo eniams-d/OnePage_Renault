@@ -81,5 +81,19 @@ header nav ul{
     width: 100%; 
     top:10px; 
     text-align:center;
-    
+  }
+
+
+  /*IMAGE HEADER*/
+
+  #home{
+
+  	background:url('img/home-renault.png');
+  	min-height:10vh;
+  	-webkit-background-size:cover;
+  	background-size:cover;
+  	background-position: center;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
   }
