@@ -59,13 +59,21 @@ header nav ul{
     width:100%;
   }
 
+
+/***POLYGONE***/
+
+ .polygone{
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+  }
+
   /***LOGO***/
 
   nav .logo svg{
     height: 100%;
     z-index: 98;
     position: absolute;
-    top: 10px;
+    top: 8px;
     margin-left: 5px;
   }
 
@@ -86,10 +94,10 @@ header nav ul{
 
   /*IMAGE HEADER*/
 
-  #home{
+  .header{
 
-  	background:url('img/home-renault.png');
-  	min-height:10vh;
+  	background:url('../img/home-renault.png');
+  	min-height:100vh;
   	-webkit-background-size:cover;
   	background-size:cover;
   	background-position: center;
