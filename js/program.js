@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     //TITLE
     const title = document.querySelector('.slogan h1');
-    const texts = Array('Le design au service de la performance','La sportivité à l\'état pur',"La perfection dans les détails");
+    const texts = Array('La sportivité à l\'état pur','Le design au service de la performance',"La perfection dans les détails");
     const textsLength = texts.length;
     var currentText = 0;
 
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 changeText();
 
             }, 7000)
-            
+
         }, 1000)
     }
     changeText();
