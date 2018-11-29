@@ -1,5 +1,5 @@
 // charge le DOM
-document.addEventlistener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
 
 	const title = document.querySelector(".slogan h1");
 	const texts = title.getAttribute("data-text").split("/");
