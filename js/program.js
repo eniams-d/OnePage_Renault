@@ -2,7 +2,7 @@
     document.addEventListener("DOMContentLoaded", function () {
  
       const title = document.querySelector(".slogan h1"); // selectionne me H1
-      const texts = title.getAttribute("data-text").split("/"); // selectionne le texte inscris dans data-text et transforme et le coupe à chaque "/"
+      const texts = Array("Le design au service de la performance","La sportivité à l'état pur","La perfection dans les détails") // selectionne le texte inscris dans data-text et transforme et le coupe à chaque "/"
       const textsLength = texts.length; // récupère la taille du texte
       var currentText = 0; // indice du premier bout de texte
 
